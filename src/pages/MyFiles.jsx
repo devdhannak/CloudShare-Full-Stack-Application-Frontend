@@ -60,7 +60,7 @@ const MyFiles = () => {
         const data = Array.isArray(response.data) ? response.data : [];
         setFiles(data);
       }
-      console.log(response.data);
+      // console.log(response.data);
     } catch (error) {
       console.log("Error fetching the files from server: ", error);
       toast.error("Error fetching the files from server: ", error.message);

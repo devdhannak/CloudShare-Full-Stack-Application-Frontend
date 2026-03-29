@@ -78,6 +78,8 @@ const Subscription = () => {
     const fetchUserCredits = async () => {
       try {
         const token = await getToken();
+        // console.log(token);
+
         const response = await axios.get(apiEndpoints.GET_CREDITS, {
           headers: {
             Authorization: `Bearer ${token}`,
