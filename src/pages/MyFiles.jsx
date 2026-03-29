@@ -48,7 +48,7 @@ const MyFiles = () => {
   const fetchFiles = async () => {
     try {
       const token = await getToken();
-      // console.log(token);
+      console.log(token);
 
       const response = await axios.get(apiEndpoints.FETCH_FILES, {
         headers: {

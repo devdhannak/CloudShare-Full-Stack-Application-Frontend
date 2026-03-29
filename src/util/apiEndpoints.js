@@ -1,5 +1,6 @@
-// const BASE_URL = "https://cloud4.netlify.app";
-const BASE_URL = "http://localhost:8080";
+const BASE_URL =
+  "https://cloudshare-full-stack-application-backend.onrender.com";
+// const BASE_URL = "http://localhost:8080";
 
 export const apiEndpoints = {
   FETCH_FILES: `${BASE_URL}/files/my`,
