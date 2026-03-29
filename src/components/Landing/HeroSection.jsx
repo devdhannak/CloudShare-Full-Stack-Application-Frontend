@@ -44,7 +44,7 @@ const HeroSection = ({ openSignIn, openSignUp }) => {
         <div className="relative">
           <div className="aspect-w-16 rounded-lg shadow-lg overflow-hidden">
             <img
-              src={assets.dashboard}
+              src={assets.dashboard2}
               alt="Cloud Share Dashboard"
               className="w-full h-full object-cover"
             />

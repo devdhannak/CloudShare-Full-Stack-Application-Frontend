@@ -33,7 +33,7 @@ const PricingSection = ({ pricingPlans, openSignUp }) => {
                       </span>
                     )}
                   </div>
-                  <p className="mt-4 text-sm text-gray-500">
+                  <p className="mt-4 text-sm text-gray-500 ">
                     {plan.description}
                   </p>
                   <p className="mt-8">
@@ -58,7 +58,7 @@ const PricingSection = ({ pricingPlans, openSignUp }) => {
                   <div className="rounded-md shadow">
                     <button
                       onClick={() => openSignUp()}
-                      className={`w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white ${plan.highlighted ? "text-white bg-purple-500 hover:bg-purple-600" : "text-purple-600 bg-white hover:bg-gray-50 border-purple-500"} transition-colors duration-200`}
+                      className={`w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-400 ${plan.highlighted ? "text-white bg-purple-500 hover:bg-purple-600" : "text-purple-600 bg-white hover:bg-gray-50 border-purple-500"} transition-colors duration-200`}
                     >
                       {plan.cta}
                     </button>

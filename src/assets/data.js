@@ -161,7 +161,8 @@ export const testimonials = [
     company: "TechNova",
     message:
       "CloudShare made file sharing extremely simple for our team. The security and speed are excellent.",
-    avatar: "/avatars/user1.jpg",
+    avatar:
+      "https://cdn.vectorstock.com/i/500p/21/23/default-user-icon-person-avatar-vector-47852123.jpg",
     rating: 5,
     icon: Quote,
   },
@@ -172,7 +173,8 @@ export const testimonials = [
     company: "DesignFlow",
     message:
       "I love how easy it is to upload and share large design files with clients. CloudShare saves me so much time.",
-    avatar: "/avatars/user2.jpg",
+    avatar:
+      "https://cdn.vectorstock.com/i/500p/21/23/default-user-icon-person-avatar-vector-47852123.jpg",
     rating: 5,
     icon: Quote,
   },
@@ -183,7 +185,8 @@ export const testimonials = [
     company: "DevStack",
     message:
       "The interface is clean and the performance is impressive. It's now our go-to tool for sharing project files.",
-    avatar: "/avatars/user3.jpg",
+    avatar:
+      "https://cdn.vectorstock.com/i/500p/21/23/default-user-icon-person-avatar-vector-47852123.jpg",
     rating: 4,
     icon: Quote,
   },
@@ -194,7 +197,8 @@ export const testimonials = [
     company: "GrowthHub",
     message:
       "Sharing campaign assets with our distributed team has never been easier. CloudShare works flawlessly.",
-    avatar: "/avatars/user4.jpg",
+    avatar:
+      "https://cdn.vectorstock.com/i/500p/21/23/default-user-icon-person-avatar-vector-47852123.jpg",
     rating: 5,
     icon: Quote,
   },
