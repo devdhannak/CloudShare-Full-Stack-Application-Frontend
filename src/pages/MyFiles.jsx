@@ -48,7 +48,7 @@ const MyFiles = () => {
   const fetchFiles = async () => {
     try {
       const token = await getToken();
-      console.log(token);
+      // console.log(token);
 
       const response = await axios.get(apiEndpoints.FETCH_FILES, {
         headers: {
@@ -57,7 +57,8 @@ const MyFiles = () => {
       });
 
       if (response.status === 200) {
-        setFiles(response.data);
+        const data = Array.isArray(response.data) ? response.data : [];
+        setFiles(data);
       }
       console.log(response.data);
     } catch (error) {
